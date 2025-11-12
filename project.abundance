@@ -81,8 +81,8 @@
     {
       "atomType": "Assembly",
       "name": "Assembly",
-      "x": 0.6693121693121693,
-      "y": 0.6100278551532033,
+      "x": 0.6214689265536723,
+      "y": 0.45962732919254656,
       "uniqueID": "id-170",
       "ioValues": [
         {
@@ -440,17 +440,19 @@
     {
       "atomType": "Gcode",
       "name": "Gcode",
-      "x": 0.8293650793650793,
-      "y": 0.9275766016713092,
+      "x": 0.8135593220338982,
+      "y": 0.7142857142857143,
       "uniqueID": "id-475",
       "ioValues": [
         {
           "name": "Tool Size",
-          "ioValue": 6.35
+          "ioValue": 6.35,
+          "currentEquation": "6.35"
         },
         {
           "name": "Passes",
-          "ioValue": 10
+          "ioValue": 3,
+          "currentEquation": "3"
         },
         {
           "name": "Speed",
@@ -528,13 +530,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 52,
-              "currentEquation": "52"
+              "ioValue": 52
             },
             {
               "name": "y length",
-              "ioValue": 45,
-              "currentEquation": "45"
+              "ioValue": 45
             }
           ]
         },
