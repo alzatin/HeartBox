@@ -251,7 +251,7 @@
           "ioValue": {
             "geometry": [
               {
-                "geometry": "move-rotate-cut-extrude-fuse-move-circle-19-0-17-0-move-rectangle-50-42-0--21-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-move-extrude-fuse-move-circle-19-0-17-0-move-rectangle-50-42-0--21-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-0-0--43-12--7-12",
+                "geometry": "move-rotate-cut-extrude-fuse-move-circle-19-0-17-0-move-rectangle-52-45-0--21-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7-move-extrude-fuse-move-circle-19-0-17-0-move-rectangle-52-45-0--21-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-0-0--43-12--7-12",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -275,7 +275,7 @@
                 "dimension": "3D"
               },
               {
-                "geometry": "move-rotate-move-extrude-fuse-move-circle-19-0-17-0-move-rectangle-50-42-0--21-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-0-0--43-12--7-12",
+                "geometry": "move-rotate-move-extrude-fuse-move-circle-19-0-17-0-move-rectangle-52-45-0--21-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7-0-0--43-12--7-12",
                 "tags": [
                   "keepout"
                 ],
@@ -363,8 +363,8 @@
     {
       "atomType": "ExtractTag",
       "name": "Extract Tag",
-      "x": 0.7301587301587301,
-      "y": 0.1977715877437326,
+      "x": 0.7367724867724867,
+      "y": 0.2256267409470752,
       "uniqueID": "id-179",
       "ioValues": [],
       "tag": "Wood",
@@ -528,11 +528,13 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 50
+              "ioValue": 52,
+              "currentEquation": "52"
             },
             {
               "name": "y length",
-              "ioValue": 42
+              "ioValue": 45,
+              "currentEquation": "45"
             }
           ]
         },
@@ -568,7 +570,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-rectangle-50-42-0--21-0",
+                "geometry": "move-rectangle-52-45-0--21-0",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
@@ -697,7 +699,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "extrude-fuse-move-circle-19-0-17-0-move-rectangle-50-42-0--21-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7",
+                "geometry": "extrude-fuse-move-circle-19-0-17-0-move-rectangle-52-45-0--21-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -724,7 +726,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-extrude-fuse-move-circle-19-0-17-0-move-rectangle-50-42-0--21-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7",
+                "geometry": "move-extrude-fuse-move-circle-19-0-17-0-move-rectangle-52-45-0--21-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-0-7",
                 "tags": [
                   "keepout"
                 ],
