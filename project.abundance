@@ -133,7 +133,8 @@
       "ioValues": [
         {
           "name": "File Type",
-          "ioValue": "STL"
+          "ioValue": "STL",
+          "currentEquation": "STL"
         },
         {
           "name": "Resolution (dpi)",
@@ -141,7 +142,8 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "HeartBox"
+          "ioValue": "HeartBox",
+          "currentEquation": "HeartBox"
         }
       ],
       "type": null,
@@ -171,8 +173,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8136067101584342,
-      "y": 0.7142857142857143,
+      "x": 0.7684294871794872,
+      "y": 0.743202416918429,
       "uniqueID": "id-475",
       "ioValues": [
         {
@@ -181,7 +183,7 @@
         },
         {
           "name": "Passes",
-          "ioValue": 3
+          "ioValue": 2
         },
         {
           "name": "Speed",
@@ -193,7 +195,8 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "HeartBox"
+          "ioValue": "HeartBox",
+          "currentEquation": "HeartBox"
         }
       ],
       "partName": "HeartBox",
@@ -362,7 +365,7 @@
           "x": 0.7414021164021164,
           "y": 0.807799442896936,
           "uniqueID": "id-182",
-          "selectedColorIndex": 7
+          "selectedColor": "Green"
         },
         {
           "atomType": "Extrude",
@@ -401,7 +404,7 @@
           "x": 0.8313492063492063,
           "y": 0.3788300835654596,
           "uniqueID": "id-211",
-          "selectedColorIndex": 23
+          "selectedColor": "Keep Out"
         },
         {
           "atomType": "Assembly",
@@ -555,7 +558,7 @@
           "x": 0.4993386243386243,
           "y": 0.20055710306406688,
           "uniqueID": "id-150",
-          "selectedColorIndex": 23
+          "selectedColor": "Keep Out"
         },
         {
           "atomType": "Assembly",
@@ -1368,7 +1371,7 @@
           "x": 0.8101851851851852,
           "y": 0.7353760445682451,
           "uniqueID": "id-372",
-          "selectedColorIndex": 12
+          "selectedColor": "Clay"
         },
         {
           "atomType": "Circle",
@@ -1858,7 +1861,7 @@
               "x": 0.6124338624338624,
               "y": 0.2256267409470752,
               "uniqueID": "id-245",
-              "selectedColorIndex": 17
+              "selectedColor": "Tan"
             },
             {
               "atomType": "Circle",
